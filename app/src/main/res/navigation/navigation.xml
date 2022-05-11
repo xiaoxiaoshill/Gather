@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/news">
+
+    <fragment
+        android:id="@+id/news"
+        android:name="com.example.gather.news.NewsFragment"
+        tools:layout="@layout/news_fragment" />
+    <fragment
+        android:id="@+id/tool"
+        android:name="com.example.gather.tool.ToolFragment"
+        tools:layout="@layout/tool_fragment" />
+    <fragment
+        android:id="@+id/mine"
+        android:name="com.example.gather.mine.MineFragment"
+        tools:layout="@layout/mine_fragment" />
+</navigation>
